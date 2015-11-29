@@ -1,6 +1,3 @@
-# My Table of content
-- [sec1](#id-section1)
-
 #Header1
 ##Header2
 ### Header 3
@@ -20,7 +17,6 @@ Some of these words _are emphasized also_.
 Use two asterisks for **strong emphasis**.
 Or, if you prefer, __use two underscores instead__.
 
-<div id='id-section1'/>
 #三. 列表
 * Candy.
 * Gum.
