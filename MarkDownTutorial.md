@@ -1,22 +1,10 @@
-**Table of Contents**
+**目录**
 
-- [Header1](#)
-	- [Header2](#)
-		- [Header 3](#)
-- [一. 引用块](#)
-- [二. 斜杠加粗](#)
-- [三. 列表](#)
-- [四. 超链接](#)
-- [五. 图片](#)
-- [六. 代码](#)
-- [七. 分割线](#)
-- [八. 表格](#)
+[TOC]
 
-#Header1
-##Header2
-### Header 3
+[跳转](#jump)
 
-#一. 引用块
+# 1.引用块
 > This is a blockquote.
 > 
 > This is the second paragraph in the blockquote.
@@ -25,13 +13,15 @@
 >
 >>嵌套引用
 
-#二. 斜杠加粗
+## 1.1二级目录
+
+# 2.斜杠加粗
 Some of these words *are emphasized*.
 Some of these words _are emphasized also_.
 Use two asterisks for **strong emphasis**.
 Or, if you prefer, __use two underscores instead__.
 
-#三. 列表
+# 3.列表
 * Candy.
 * Gum.
 * Booze.
@@ -47,7 +37,7 @@ With multiple paragraphs.
 
 * Another item in the list.
 
-#四. 超链接
+# 4.超链接
 [example link](http://example.com/).
 [example link](http://example.com/ "With a Title").
 
@@ -62,14 +52,14 @@ I get 10 times more traffic from [Google][1] than from
 
 [ny times]: http://www.nytimes.com/
 
-#五. 图片
+# 5.图片
 ![alt text](/path/to/img.jpg "Title")
 
 ![alt text][id]
 
 [id]: /path/to/img.jpg "Title"
 
-#六. 代码
+# 6.代码
 
 -----------------------------------------
 <code>this is code</code>
@@ -101,18 +91,20 @@ public class Sample()
 
 -----------------------------------------
 
+<span id="jump">跳转到的地方</span>
 
+# 7.分割线
 
-#七. 分割线
-***
 -----------------------------------------
 
-#八. 表格
-<table>
-	<tr>
-		<th>列1</th><th>列2</th>
-	</tr>
-    <tr>
-        <td>Foo</td><td>bar</td>
-    </tr>
-</table>
+# 8.表格
+
+ Left align | Right align | Center align 
+:-----------|------------:|:------------:
+ This       |        This |     This     
+ column     |      column |    column    
+ will       |        will |     will     
+ be         |          be |      be      
+ left       |       right |    center
+ aligned    |     aligned |   aligneddd dddddd
+
