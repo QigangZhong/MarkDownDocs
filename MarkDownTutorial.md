@@ -91,6 +91,17 @@ public class Sample()
 
 -----------------------------------------
 
+```json
+{
+    "Name": "aaaaaa",
+    "Age": 10,
+    "dob": "2000-01-01 00:00:00Z",
+    "inner": {
+        "prop": 30
+    }
+}
+```
+
 <span id="jump">跳转到的地方</span>
 
 # 7.分割线
@@ -107,4 +118,3 @@ public class Sample()
  be         |          be |      be      
  left       |       right |    center
  aligned    |     aligned |   aligneddd dddddd
-
